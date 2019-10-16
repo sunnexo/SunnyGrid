@@ -1,0 +1,74 @@
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+.title{
+    background-color: rgb(199, 0, 0);
+    color: whitesmoke;
+    overflow: auto;
+    padding-left: 2%;
+    position: fixed;
+    height: 6vw;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    
+    box-shadow: darkred 0px 1vw 5px;
+}
+
+.whitespace{
+    background-color:rgb(31, 31, 31);
+    height: 50%;
+    color: white;
+}
+
+/*navigation{
+    background-color: rgb(158, 0, 145);
+    padding-left: 2%;
+    overflow: auto;
+    color: white;
+    width: 30%;
+}
+*/
+ul.navigation{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 39.5vw;
+    position: fixed;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgb(128, 0, 0);
+    z-index: 0;
+}
+li a {
+    display: block;
+    color: rgb(223, 223, 223);
+    padding-left: 2vw;
+    padding-right: 6vw;
+    padding-top: 1vw;
+    height: 2vw;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(245, 0, 0);
+    color: white
+}
+
+.wrapper{
+    background-color: rgb(31, 31, 31);
+    min-height: 1200px;
+    overflow: auto;
+    padding-left: 2%;
+    color: whitesmoke;
+    z-index: -1;
+}
+
+h1.comfortaa{
+    font-family:comfortaa light; font-size:2.5vw;
+}
+
+a.comfortaa{
+    font-family:comfortaa light; font-size:1.1vw;
+    text-align: left;
+}
