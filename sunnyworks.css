@@ -3,7 +3,8 @@ body{
 }
 
 .title{
-    background-color: rgb(199, 0, 0);
+    background-color: rgb(39, 56, 86);
+    background-image: linear-gradient(90deg, rgb(39, 56, 86), rgb(92, 28, 90));
     color: whitesmoke;
     overflow: auto;
     padding-left: 2%;
@@ -13,7 +14,7 @@ body{
     width: 100%;
     z-index: 2;
     
-    box-shadow: darkred 0px 1vw;
+    /*box-shadow: rgb(28, 40, 61) 0px 1vw;*/
 }
 
 .whitespace{
@@ -34,11 +35,11 @@ ul.navigation{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    height: 39.5vw;
+    height: 40.5vw;
     position: fixed;
     bottom: 0;
     overflow: auto;
-    background-color: rgb(128, 0, 0);
+    background-color: rgb(42, 67, 100);
     z-index: 0;
 }
 li a {
@@ -51,7 +52,8 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: rgb(245, 0, 0);
+    background-color: rgb(39, 56, 86);
+    background-image: linear-gradient(90deg, rgb(39, 56, 86), rgb(92, 28, 90));
     color: white
 }
 
@@ -61,7 +63,9 @@ li a:hover {
     overflow: auto;
     padding-left: 2%;
     color: whitesmoke;
-    z-index: -1;
+    z-index: 1;
+    width: 70%;
+    position: 
 }
 
 h1.comfortaa{
@@ -69,6 +73,11 @@ h1.comfortaa{
 }
 
 a.comfortaa{
+    font-family:comfortaa light; font-size:1.1vw;
+    text-align: left;
+}
+
+p.comfortaa{
     font-family:comfortaa light; font-size:1.1vw;
     text-align: left;
 }
