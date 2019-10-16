@@ -76,15 +76,15 @@ li a:hover {
 }
 
 h1.comfortaa{
-    font-family:comfortaa light; font-size:2.5vw;
+    font-family:comfortaa; font-size:2.5vw;
 }
 
 a.comfortaa{
-    font-family:comfortaa light; font-size:1.1vw;
+    font-family:comfortaa; font-size:1.1vw;
     text-align: left;
 }
 
 p.comfortaa{
-    font-family:comfortaa light; font-size:1.1vw;
+    font-family:comfortaa; font-size:1.1vw;
     text-align: left;
 }
