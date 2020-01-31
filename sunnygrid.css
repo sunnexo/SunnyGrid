@@ -6,7 +6,7 @@ body {
 @font-face{
     font-family: comfortaa;
     src: url(comfortaa.ttf);
-
+}
 .bg-image {
     position: absolute;
     z-index: -1;
